@@ -1,0 +1,668 @@
+h1, h2, h3 {
+  color: white;
+  font-family: 'Teko', sans-serif;
+  opacity: 50;
+}
+
+h1 {
+  font-size: 3.5rem;
+}
+
+h2 {
+  font-size: 3.3rem;
+  text-align: center;
+}
+
+h3 {
+  font-size: 3rem;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+p {
+  color: white;
+  font-family: 'Source Code Pro', monospace;
+  opacity: 50;
+}
+
+.footer-link, .footer-copyright p {
+  font-family: 'Teko', sans-serif;
+}
+
+u {
+  text-underline-offset: 0.3rem;
+}
+
+body {
+  background-image: url("../components//images/body-back-1.jpg");
+  background-size: 100%;
+  padding-bottom: 0px;
+}
+
+.container-fluid {
+  padding: 1% 8%;
+}
+
+.logo {
+  width: 80px;
+}
+
+.title-logo {
+  animation: fadeZoomIn 7s;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 200px;
+  width: 50%;
+}
+
+/* Index Page */
+.hero-video {
+  border: 1px solid rgba(25, 26, 25);
+  opacity: 0.5;
+  position: absolute;
+  z-index: -1;
+}
+
+.hero-overview, .explore-overview, .pre-order-overview, .about-overview,
+.game-feature-overview, .media-overview, .success-overview, .failure-overview {
+  font-family: 'Oswald', sans-serif;
+  font-size: 1rem;
+  letter-spacing: 4px;
+}
+
+.hero-overview {
+  animation: fadeIn 7s;
+  margin-top: 40px;
+  text-align: center;
+}
+
+.navbar-customclass .nav-item .nav-link {
+  color: #FFFFFF;
+  font-family: 'Teko', sans-serif;
+  font-size: 1.4rem;
+  letter-spacing: 3px;
+  transition: 0.5s ease;
+}
+
+.navbar-customclass .nav-item:hover .nav-link {
+  color: rgba(33, 225, 225);
+}
+
+#explore-container, #latest-news, #pre-order, #features-container, #videos-container, #screenshots-container {
+  padding: 5% 10%;
+}
+
+#explore-container {
+  border-bottom: 1px solid rgba(25, 26, 25);
+  padding-top: 400px;
+}
+
+.btn-outline-primary {
+  background-color: rgba(33, 225, 225, .3);
+  border-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/brace.svg) 50 50;
+  border-width: 15px;
+  color: white;
+  font-family: 'Teko', sans-serif;
+  font-size: 1.2rem;
+  letter-spacing: 3px;
+  padding: 3px 10px 0 10px;
+  transition: 0.3s ease;
+}
+
+.btn-outline-primary:hover {
+  background-color: rgba(59, 154, 225, .6);
+  border-color: rgba(59, 154, 225);
+  transition: 0.3s ease;
+}
+
+.explore-title, .latest-news-title {
+  font-size: 3rem;
+  letter-spacing: 5px;
+}
+
+.explore-title {
+  padding-top: 110px;
+  text-align: left;
+}
+
+.explore-overview-container {
+  margin-top: 30px;
+  text-align: left;
+}
+
+.explore-overview {
+  color: #7F8487;
+}
+
+.pre-order-btn {
+  margin-top: 23px;
+}
+
+.explore-video {
+  padding-left: 15px;
+}
+
+#latest-news {
+  margin-top: 80px;
+}
+
+.card {
+  background-color: rgba(25, 26, 25, .1);
+  border-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/brace.svg) 50 50;
+  border-style: outset;
+  border-width: 15px;
+}
+
+.card-header {
+  background-color: rgba(25, 26, 25, .1);
+}
+
+.card-img {
+  width: 100%;
+}
+
+.card-title {
+  color: rgba(0, 0, 0, 1);
+  font-size: 1.4rem;
+  letter-spacing: 2.5px;
+  text-decoration: none;
+}
+
+.card .card-title {
+  color: rgba(33, 225, 225);
+}
+
+.card-overview {
+  color: #7F8487;
+  font-family: 'Oswald', sans-serif;
+  font-size: 0.9rem;
+  letter-spacing: 4px;
+}
+
+#pre-order, #screenshots-container {
+  border-top: 1px solid rgba(25, 26, 25);
+}
+
+#pre-order {
+  margin-top: 210px;
+  padding-bottom: 80px;
+}
+
+.pre-order-title {
+  font-size: 4rem;
+  letter-spacing: 4px;
+  padding-top: 150px;
+  text-align: center;
+}
+
+.pre-order-overview {
+  text-align: center;
+}
+
+.select-platform-title {
+  font-family: 'Teko', sans-serif;
+  font-size: 1.2rem;
+  letter-spacing: 4px;
+  text-align: center;
+}
+
+.platform-buttons-container {
+  text-align: center;
+}
+
+.platform-btn {
+  background-color: rgba(239, 91, 12, .5);
+  border-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/brace.svg) 50 50;
+  border-style: inset;
+  border-width: 10px;
+  font-size: 1rem;
+}
+
+.platform-btn:hover {
+  background-color: rgba(224, 77, 1);
+}
+
+.pre-order-video {
+  border-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/brace.svg) 30 30;
+  border-style: inset;
+  border-width: 12px;
+  display: block;
+  margin: 0 auto;
+  opacity: 0.7;
+  position: absolute;
+  top: 5px;
+  width: 100%;
+  z-index: -1;
+}
+
+/* About Page */
+.about-container {
+  font-size: 0.5rem;
+  margin-top: 160px;
+}
+
+.about-text-container {
+  padding-top: 250px;
+}
+
+.about-title {
+  font-size: 3rem;
+  letter-spacing: 5px;
+}
+
+.about-overview {
+  color: #7F8487;
+}
+
+#features-container {
+  margin-top: 70px;
+}
+
+.game-feature-title {
+  color: rgba(33, 225, 225);
+  font-family: 'Oswald', sans-serif;
+  font-size: 1.3rem;
+  letter-spacing: 4px;
+  padding-top: 35px;
+  text-align: left;
+}
+
+.game-feature-title li {
+  list-style-type: square;
+}
+
+.game-feature-overview-container {
+  margin-top: 30px;
+  text-align: left;
+}
+
+.game-feature-overview {
+  color: #7F8487;
+}
+
+.game-feature-img, .game-feature-img-two {
+  width: 100%;
+}
+
+.game-feature-img-two {
+  margin-top: 80px;
+}
+
+.game-feature-container-two {
+  margin-top: 102px;
+}
+
+/* Media Page */
+.media-container {
+  font-size: 0.5rem;
+  margin-top: 300px;
+}
+
+.media-title, .screenshots-title {
+  font-size: 3rem;
+  letter-spacing: 5px;
+}
+
+.media-overview {
+  color: #7F8487;
+}
+
+#videos-container {
+  margin-top: 11px;
+}
+
+.bg-image {
+  margin-top: 15px;
+}
+
+.d-flex {
+  padding-bottom: 5px;
+}
+
+.text {
+  font-family: 'Teko', sans-serif;
+  font-size: 1.3rem;
+  float: right;
+  margin-left: 13px;
+  padding-top: 5px;
+}
+
+.fa-play {
+  font-size: 0.9rem;
+  float: right;
+  padding-left: 10px;
+  padding-top: 7px;
+}
+
+.screenshot {
+  margin-top: 2rem;
+  width: 100%;
+}
+
+/* Signup Page */
+
+.form-container {
+  margin-top: 11px;
+  padding-top: 10px;
+  padding-bottom: 55px;
+}
+
+.form-sign-in {
+  background-color: rgba(0, 0, 0, .5);
+  border-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/brace.svg) 50 50;
+  border-style: inset;
+  border-width: 30px;
+  color: white;
+  font-family: 'Oswald', sans-serif;
+  margin: 0 auto;
+  margin-top: 73px;
+  max-width: 500px;
+  padding-top: 1px;
+  padding-bottom: 50px;
+  text-align: center;
+  transition: 0.3s ease;
+}
+
+.form-sign-in input {
+  background-color: rgba(0, 0, 0, .5);
+  border: 1px solid rgba(0, 0, 0, .5);
+}
+
+.form-sign-in .checkbox {
+  font-weight: 400;
+}
+
+.form-sign-in .form-control {
+  font-size: 16px;
+  height: auto;
+  padding: 10px;
+  position: relative;
+}
+
+.form-sign-in .form-control:focus {
+  z-index: 2;
+}
+
+.sign-up-title {
+  font-family: 'Teko', sans-serif;
+  font-size: 4rem;
+  letter-spacing: 8px;
+}
+
+.sign-up-overview {
+  color: white;
+  font-family: 'Teko', sans-serif;
+  font-size: 1.1rem;
+  letter-spacing: 2px;
+}
+
+.subscribe-btn, .try-again-btn {
+  background-color: rgba(33, 225, 225, .3);
+  border-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/brace.svg) 50 50;
+  border-style: outset;
+  border-width: 15px;
+}
+
+.subscribe-btn {
+  font-family: 'Teko', sans-serif;
+  font-size: 1.7rem;
+  letter-spacing: 3px;
+}
+
+.try-again-btn {
+  font-family: 'Oswald', sans-serif;
+  font-size: 1.5rem;
+  letter-spacing: 5px;
+}
+
+.subscribe-btn:hover {
+  background-color: rgba(59, 154, 225, .6);
+}
+
+.success-container {
+  margin-top: 230px;
+}
+
+.failure-container {
+  margin-top: 160px;
+}
+
+.success-title, .failure-title {
+  font-size: 6rem;
+  letter-spacing: 15px;
+  text-align: center;
+}
+
+.success-overview {
+  text-align: center;
+}
+
+.failure-overview {
+  text-align: center;
+}
+
+footer {
+  background-color: #040303;
+  border: 1px solid rgba(25, 26, 25);
+  color: white;
+  margin-top: 260px;
+  padding-top: 30px;
+  text-align: center;
+}
+
+.sds-logo {
+  margin-bottom: 10px;
+  width: 115px;
+  transition: 0.2s ease;
+}
+
+.krafton-logo {
+  margin-left: 50px;
+  margin-bottom: 10px;
+  width: 140px;
+  transition: 0.2s ease;
+}
+
+.footer-social-media {
+  display: inline-block;
+  margin-left: 50px;
+}
+
+.fa-facebook-f, .fa-twitter, .fa-instagram, .fa-youtube {
+  color: white;
+  font-size: 1.6rem;
+  margin-left: 20px;
+}
+
+.fa-facebook-f {
+  margin-left: 0;
+}
+
+.footer-link {
+  display: inline-block;
+  font-size: 0.9rem;
+  letter-spacing: 3px;
+  list-style-type: none;
+  margin-top: 30px;
+  margin-left: 35px;
+}
+
+.footer-copyright {
+  color: #7F8487;
+  font-size: 0.5rem;
+  letter-spacing: 3px;
+  padding-top: 13px;
+  text-align: center;
+}
+
+/* Custom Animations */
+@keyframes fadeZoomIn {
+  from {
+    opacity: 0;
+    transform: scale(1.3);
+  }
+
+  to {
+    opacity: 100;
+    transform: none;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes zoom {
+  from {
+    transform: scale(0)
+  }
+
+  to {
+    transform: scale(1)
+  }
+}
+
+/* Custom Media Breakpoints */
+@media only screen and (max-width: 991px) {
+  .navbar {
+    background-color: rgba(25, 26, 25, .9);
+  }
+
+  .navbar-customclass .nav-item .nav-link {
+    font-size: 2rem;
+  }
+
+  .logo {
+    width: 80px;
+  }
+
+  .title-logo {
+    width: 80%;
+  }
+
+  #explore-container {
+    padding-top: 250px;
+  }
+
+  .explore-title {
+    font-size: 3.8rem;
+    padding-top: 0;
+  }
+
+  .explore-overview {
+    font-size: 2rem;
+  }
+
+  .explore-video {
+    padding-top: 60px;
+  }
+
+  .latest-news-title {
+    font-size: 3.8rem;
+    padding-bottom: 35px;
+  }
+
+  .card .card-title {
+    font-size: 3.3rem;
+  }
+
+  .card-overview {
+    font-size: 1.5rem;
+  }
+
+  .media-title {
+    font-size: 3.9rem;
+  }
+
+  .media-overview {
+    font-size: 1.8rem;
+  }
+
+  .card-title {
+    font-size: 2.8rem;
+  }
+
+  .fa-play {
+    font-size: 1.7rem;
+    padding-top: 16px;
+  }
+
+  .screenshots-title {
+    font-size: 3.9rem;
+  }
+
+  .pre-order-title {
+    padding-top: 80px;
+  }
+
+  .pre-order-overview {
+    font-size: 1.6rem;
+  }
+
+  .select-platform-title {
+    font-size: 2rem;
+  }
+
+  .platform-btn {
+    font-size: 1.7rem;
+  }
+
+  .footer-link {
+    font-size: 1.5rem;
+  }
+
+  .about-title {
+    font-size: 4.3rem;
+  }
+
+  .about-overview {
+    font-size: 1rem;
+  }
+
+  .game-feature-title {
+    font-size: 2.3rem;
+  }
+
+  .game-feature-overview {
+    font-size: 1.7rem;
+  }
+
+  .form-sign-in {
+    margin-top: 220px;
+  }
+
+  .sign-up-footer {
+    margin-top: 700px;
+  }
+}
+
+@media only screen and (max-width: 710px) {
+  .hero-video {
+    width: 110%;
+  }
+}
+
+@media only screen and (max-width: 610px) {
+  .hero-video {
+    width: 120%;
+  }
+}
+
+@media only screen and (max-width: 560px) {
+  .hero-video {
+    width: 150%;
+  }
+
+  .title-logo {
+    width: 80%;
+  }
+}
